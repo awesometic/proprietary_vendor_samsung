@@ -22,14 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/btnv32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/btnv32.bin \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cal_data_LSCmaster.bin \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/samsung/gts3l-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
