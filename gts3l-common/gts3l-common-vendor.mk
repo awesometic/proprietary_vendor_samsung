@@ -38,54 +38,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
     vendor/samsung/gts3l-common/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
-    vendor/samsung/gts3l-common/proprietary/etc/somxreg.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/somxreg.conf \
     vendor/samsung/gts3l-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts3l-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
+    vendor/samsung/gts3l-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/samsung/gts3l-common/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
     vendor/samsung/gts3l-common/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/gts3l-common/proprietary/lib/lib_SamsungRec_06002.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_06002.so \
     vendor/samsung/gts3l-common/proprietary/lib/lib_SoundBooster_ver_Quad_710.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver_Quad_710.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libarac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarac.so \
     vendor/samsung/gts3l-common/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/samsung/gts3l-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/gts3l-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/samsung/gts3l-common/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/samsung/gts3l-common/proprietary/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprofileparamstorage.so \
     vendor/samsung/gts3l-common/proprietary/lib/librecordalive.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librecordalive.so \
     vendor/samsung/gts3l-common/proprietary/lib/libremotedisplay_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libremotedisplay_wfd.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungVoipResampler.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsavsac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsavsac.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsavscmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsavscmn.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsavsff.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsavsff.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsavsmeta.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsavsmeta.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsavsvc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsavsvc.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsnaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsnaace.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsnamrnb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsnamrnb.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsnamrwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsnamrwb.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomx263dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomx263dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomx264dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomx264dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxaacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxaacd.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxadpcmd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxadpcmd.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxamrd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxamrd.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxcmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxcmn.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxcore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxcore.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxflacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxflacd.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxhevcdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxhevcdsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxmp3d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxmp3d.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxmp43d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxmp43d.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxmp4vdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxmp4vdsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxnaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxnaace.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxsr263d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxsr263d.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxvc1dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxvc1dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxvp8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxvp8d.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxwmad.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmad.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxwmv7d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmv7d.so \
-    vendor/samsung/gts3l-common/proprietary/lib/libsomxwmv8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmv8d.so \
     vendor/samsung/gts3l-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     vendor/samsung/gts3l-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gts3l-common/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
@@ -112,45 +82,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/lib/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/gts3l-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libarac.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarac.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpixelflinger.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprofileparamstorage.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsavsac.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsavsac.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsavscmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsavscmn.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsavsff.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsavsff.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsavsmeta.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsavsmeta.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsavsvc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsavsvc.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecaudiocoreutils.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsnaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnaace.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsnamrnb.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnamrnb.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsnamrwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnamrwb.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomx263dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomx263dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomx264dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomx264dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxaacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxaacd.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxadpcmd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxadpcmd.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxamrd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxamrd.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxcmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxcmn.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxcore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxcore.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxflacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxflacd.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxhevcdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxhevcdsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxmp3d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxmp3d.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxmp43d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxmp43d.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxmp4vdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxmp4vdsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxnaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxnaace.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxsr263d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxsr263d.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxvc1dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxvc1dsw.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxvp8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxvp8d.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxwmad.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxwmad.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxwmv7d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxwmv7d.so \
-    vendor/samsung/gts3l-common/proprietary/lib64/libsomxwmv8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsomxwmv8d.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsxqk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
@@ -388,16 +328,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8996.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
@@ -405,10 +341,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
@@ -578,7 +513,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrplugin_client.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libedge_smooth_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libedge_smooth_hvx_stub.so \
@@ -620,7 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libmmcamera2_companion_imx260.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_companion_imx260.so \
@@ -768,7 +701,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
@@ -817,28 +749,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
@@ -907,8 +823,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
@@ -954,8 +868,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
-    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/samsung/gts3l-common/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
