@@ -45,7 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/gts3l-common/proprietary/lib/lib_SamsungRec_06002.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_06002.so \
     vendor/samsung/gts3l-common/proprietary/lib/lib_SoundBooster_ver_Quad_710.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver_Quad_710.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurdetection_interface.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib/libdejagging_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdejagging_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib/libflashedlls_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflashedlls_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/gts3l-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/samsung/gts3l-common/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
@@ -56,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/gts3l-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     vendor/samsung/gts3l-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gts3l-common/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
@@ -82,7 +86,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/lib/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/gts3l-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurdetection_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libflashedlls_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflashedlls_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
@@ -91,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts3l-common/proprietary/lib64/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprofileparamstorage.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecaudiocoreutils.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
+    vendor/samsung/gts3l-common/proprietary/vendor/lib64/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartfocus_interface.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsxqk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
     vendor/samsung/gts3l-common/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
