@@ -1,0 +1,23 @@
+{
+    "Image_Build_IDs": {
+        "apps": "LA.UM.7.5.r1-04000-8x96.0-1", 
+        "boot": "BOOT.XF.1.0-00330-M8996LZB-1", 
+        "btfm": "BTFM.RM.4.3.c3-00026-QCABTFMSWPZ-1", 
+        "common": "MSM8996.LA.2.0.3-00015-STD.PROD-1", 
+        "cpev2": "CPE.TSF.1.0-00035-W9335AAAAAAAZQ-1", 
+        "glue": "GLUE.MSM8996.2.0-00026-NOOP_TEST-1", 
+        "rpm": "RPM.BF.1.6-00153-M8996AAAAANAZR-1", 
+        "slpi": "SLPI.HB.1.0-00321-M8996AZL-1.244411.2", 
+        "tz": "TZ.BF.4.0.1.c2-00038-M8996AAAAANAZT-1.211064.1.245806.1", 
+        "video": "VIDEO.VE.4.4-00042-PROD-1", 
+        "wapi": "WLAN.ADDON_RM.3.0-00013-CNSS_RMZ_WAPI-1", 
+        "wigig": "WIGIG.SPR.2.1-00032-WIGIGSWZ-1", 
+        "wlan": "WLAN.RM.4.3.c3-00045-QCARMSWPZ-2"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "MSM8996.LA.2.0.3-00015-STD.PROD-1", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2020-11-19 16:57:30"
+    }, 
+    "Version": "1.0"
+}
